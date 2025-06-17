@@ -19,12 +19,13 @@ const messages = [
   'or-this',
   'but not this :(  ',
   'you.can.also.email.me.with.specific.topics.like',
+  'anime',
   'just-saying-hi',
   'please-work-for-us',
   'help',
-  'admin',
   'or-I-really-like-your-website',
   'thanks',
+  'enjoy-your-day',
 ];
 
 const useInterval = (callback, delay) => {
@@ -85,9 +86,9 @@ const EmailLink = ({ loopMessage }) => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => idx < messages.length && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:${message}@mldangelo.com` : ''}>
+      <a href="mailto:abc35100762@gmail.com">
         <span>{message}</span>
-        <span>@mldangelo.com</span>
+        <span>@gmail.com</span>
       </a>
     </div>
   );
