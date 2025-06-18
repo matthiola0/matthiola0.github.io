@@ -58,11 +58,11 @@ const work = [
   },
   {
     name: 'National Tsing Hua University',
-    position: 'Researcher',
+    position: 'Undergraduate Researcher',
     url: '',
     startDate: '2023-12-01',
     endDate: '2024-10-01',
-    summary: 'Led a research project titled \'Detecting Network Attacks by Comparing GA and KNN with Boosting and Decision Tree Algorithms.\''
+    summary: 'For my undergraduate thesis, I conducted a research project titled \'Detecting Network Attacks by Comparing GA and KNN with Boosting and Decision Tree Algorithms.\''
       + ' My primary responsibilities included data processing and the implementation of machine learning models. The project focused on evaluating'
       + ' and contrasting the performance of Genetic Algorithms (GA) and K-Nearest Neighbors (KNN) against classic models like Boosting and Decision Trees for identifying malicious network traffic.',
     highlights: [
@@ -89,8 +89,8 @@ const work = [
     ],
   },
   {
-    name: 'The 5th APAC HPC-AI Competition',
-    position: 'Team Member (Runner-up)',
+    name: 'The 5th APAC HPC-AI Competition (Runner-up)',
+    position: 'Team Member',
     url: 'https://nci.org.au/news-events/events/apac-hpc-ai-competition-2022-2023',
     startDate: '2022-06-01',
     endDate: '2022-11-30',
