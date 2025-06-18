@@ -29,6 +29,34 @@ const work = [
     ],
   },
   {
+    name: 'AWS Generative AI Application Hackathon',
+    position: 'Team Member (AI Agent Developer)',
+    url: 'https://www.digitimes.com.tw/seminar/generativeai_hackathon/',
+    startDate: '2025-04-26',
+    endDate: '2025-04-27',
+    summary: 'Participated in a high-intensity, 2-day hackathon focused on practical applications of Generative AI.'
+      + ' As a team member, I was specifically responsible for developing the core AI agent, learning to rapidly build and integrate emerging technologies into a functional prototype.',
+    highlights: [
+      'Developed a functional AI agent as the core of the team\'s project',
+      'Applied modern Generative AI techniques to build a practical solution under a tight deadline',
+      'Collaborated effectively with teammates to brainstorm, develop, and prototype a complete application',
+    ],
+  },
+  {
+    name: 'Meichu Hackathon',
+    position: 'Team Lead',
+    url: 'https://2024.meichuhackathon.org/',
+    startDate: '2024-10-19',
+    endDate: '2024-10-20',
+    summary: 'Led a team in the 2024 Meichu Hackathon, a 2-day intensive programming competition. This experience honed my ability'
+      + ' to guide a team through rapid ideation, quick learning, and collaborative development to build a solution prototype from the ground up under extreme time pressure.',
+    highlights: [
+      'Led and coordinated a team to develop a project prototype within a 36-hour timeframe',
+      'Facilitated brainstorming sessions and defined the technical direction for the project',
+      'Successfully managed team dynamics and task allocation in a high-pressure environment',
+    ],
+  },
+  {
     name: 'National Tsing Hua University',
     position: 'Researcher',
     url: '',
@@ -57,34 +85,6 @@ const work = [
       'Solved complex challenges focused on maximizing GPU utilization and performance on a fixed hardware environment.',
       'Gained hands-on experience with performance tuning and ensuring software compatibility on supercomputing infrastructure.',
       'Enhanced skills in long-term project management and team collaboration.',
-    ],
-  },
-  {
-    name: 'AWS Generative AI Application Hackathon',
-    position: 'Team Member (AI Agent Developer)',
-    url: 'https://www.digitimes.com.tw/seminar/generativeai_hackathon/',
-    startDate: '2025-04-26',
-    endDate: '2025-04-27',
-    summary: 'Participated in a high-intensity, 2-day hackathon focused on practical applications of Generative AI.'
-      + ' As a team member, I was specifically responsible for developing the core AI agent, learning to rapidly build and integrate emerging technologies into a functional prototype.',
-    highlights: [
-      'Developed a functional AI agent as the core of the team\'s project',
-      'Applied modern Generative AI techniques to build a practical solution under a tight deadline',
-      'Collaborated effectively with teammates to brainstorm, develop, and prototype a complete application',
-    ],
-  },
-  {
-    name: 'Meichu Hackathon',
-    position: 'Team Lead',
-    url: 'https://2024.meichuhackathon.org/',
-    startDate: '2024-10-19',
-    endDate: '2024-10-20',
-    summary: 'Led a team in the 2024 Meichu Hackathon, a 2-day intensive programming competition. This experience honed my ability'
-      + ' to guide a team through rapid ideation, quick learning, and collaborative development to build a solution prototype from the ground up under extreme time pressure.',
-    highlights: [
-      'Led and coordinated a team to develop a project prototype within a 36-hour timeframe',
-      'Facilitated brainstorming sessions and defined the technical direction for the project',
-      'Successfully managed team dynamics and task allocation in a high-pressure environment',
     ],
   },
 ];
