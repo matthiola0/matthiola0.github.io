@@ -1,5 +1,17 @@
 // TODO Add a couple lines about each project
 const data = [
+  {
+    title: 'Soul Warrior',
+    subtitle: 'A 2D action-platformer game for the Software Studio 2023 Spring course.',
+    link: 'https://fianl-project-23419.web.app/',
+    image: '/images/projects/soulwarrior.jpg',
+    date: '2023-06-01',
+    desc:
+      'Developed with Cocos Creator, this game features an email-based account system, '
+      + 'Firebase for cloud saves, and a local PVP mode. '
+      + 'It includes advanced features like intelligent BOSS AI, a skill-unlocking shop system, '
+      + 'and custom rendering effects to enhance gameplay.',
+  },
   // {
   //   title: 'Nearest Dollar',
   //   subtitle: '2015 BVP Hackathon',

@@ -73,6 +73,22 @@ const work = [
     ],
   },
   {
+    name: 'Course Project: Soul Warrior',
+    position: 'Co-Developer & Game Programmer',
+    url: 'https://fianl-project-23419.web.app/',
+    startDate: '2023-02-01',
+    endDate: '2023-06-30',
+    summary: 'As a key member of a three-person team for a course project, I co-developed "Soul Warrior," a feature-rich 2D action-platformer using Cocos Creator. '
+      + 'Our team collaborated on all aspects of the project, from initial design to final implementation, successfully creating a complete game with backend services, advanced mechanics, and a local multiplayer mode.',
+    highlights: [
+      'Developed a 2D action game using the Cocos Creator engine, handling physics, animation, and particle effects.',
+      'Implemented core player mechanics including movement, combat (melee/ranged), and a double-jump system.',
+      'Integrated Firebase for a complete backend solution, featuring email authentication and cloud-based save/load functionality.',
+      'Designed and built a local Player vs. Player (PVP) multiplayer mode.',
+      'Programmed advanced gameplay features such as intelligent BOSS AI, an in-game shop for skill unlocks, and custom rendering effects.',
+    ],
+  },
+  {
     name: 'The 5th APAC HPC-AI Competition',
     position: 'Team Member (Runner-up)',
     url: 'https://nci.org.au/news-events/events/apac-hpc-ai-competition-2022-2023',
