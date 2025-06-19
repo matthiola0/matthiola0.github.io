@@ -6,7 +6,7 @@ const skills = [
     category: ['Languages', 'Python', 'ML Engineering', 'Data Science'],
   },
   {
-    title: 'C++',
+    title: 'C/C++',
     competency: 4,
     category: ['Languages'],
   },
