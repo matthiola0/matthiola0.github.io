@@ -89,6 +89,20 @@ const work = [
     ],
   },
   {
+    name: 'Course Project: Bomberman',
+    position: 'Co-Developer & Game Programmer',
+    url: 'https://github.com/matthiola0/Bomberman',
+    startDate: '2022-09-01',
+    endDate: '2023-01-31',
+    summary: 'As part of a two-person team for a course final project, we co-developed a Bomberman-style arena game using C++ and the Allegro 5 library. '
+      + 'The game supports local multiplayer (1 vs 3 AI or 2 vs 4 AI) and features a custom-built AI with a dual-logic system for challenging gameplay.',
+    highlights: [
+      'Co-developed a Bomberman-clone from scratch in C++ with the Allegro 5 game programming library.',
+      'Implemented local multiplayer modes, supporting one or two human players against multiple computer-controlled opponents.',
+      'Contributed to the design and programming of a two-tiered AI system with distinct defensive and offensive logic.',
+    ],
+  },
+  {
     name: 'The 5th APAC HPC-AI Competition (Runner-up)',
     position: 'Team Member',
     url: 'https://nci.org.au/news-events/events/apac-hpc-ai-competition-2022-2023',
