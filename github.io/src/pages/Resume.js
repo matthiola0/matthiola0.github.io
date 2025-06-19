@@ -33,6 +33,9 @@ const Resume = () => (
             <Link to="resume">Resume</Link>
           </h2>
           <div className="link-container">
+            <h4 key="download-pdf">
+              <a href="https://raw.githubusercontent.com/matthiola0/matthiola0.github.io/refs/heads/main/CV_folder/Resume.pdf">download-pdf</a>
+            </h4>
             {Object.keys(sections).map((sec) => (
               <h4 key={sec}>
                 <a href={`#${sec.toLowerCase()}`}>{sec}</a>
