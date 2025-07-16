@@ -1,6 +1,16 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Course Recommendation System for NTHU CS Students',
+    subtitle: 'A smart course recommendation system for NTHU CS students.',
+    link: 'https://nthu-course-selecting-system.streamlit.app/',
+    image: '/images/projects/course_recommendation.jpg',
+    date: '2025-01-31',
+    desc:
+      'Built with Python and Streamlit, this smart course recommendation system helps computer science students plan their path to graduation. '
+      + 'It provides highly personalized and flexible course plans by deeply integrating complex graduation requirements and prioritizing individual student preferences.',
+  },
+  {
     title: 'Soul Warrior',
     subtitle: 'A 2D action-platformer game for the Software Studio 2023 Spring course.',
     link: 'https://fianl-project-23419.web.app/',

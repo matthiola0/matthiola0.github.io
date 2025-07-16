@@ -43,6 +43,19 @@ const work = [
     ],
   },
   {
+    name: 'Course Project: Course Recommendation System for NTHU CS Students',
+    position: 'Creator & Developer',
+    url: 'https://nthu-course-selecting-system.streamlit.app/',
+    startDate: '2024-09-01',
+    endDate: '2025-01-31',
+    summary: 'Designed and developed a smart course recommendation system for computer science students The system provides highly personalized and flexible course plans by deeply integrating complex graduation requirements and prioritizing individual student preferences, ensuring a clear and efficient path to graduation.',
+    highlights: [
+      'Engineered a highly personalized recommendation engine catering to students at any year of study, accommodating their existing academic progress.',
+      'Implemented logic to handle complex and flexible graduation requirements, such as course substitutions for English and core science credits.',
+      'Developed a preference-driven algorithm that prioritizes user-specified courses while ensuring all graduation requirements are met first.',
+    ],
+  },
+  {
     name: 'Meichu Hackathon',
     position: 'Team Lead',
     url: 'https://2024.meichuhackathon.org/',
@@ -57,7 +70,7 @@ const work = [
     ],
   },
   {
-    name: 'National Tsing Hua University',
+    name: 'Undergraduate Thesis',
     position: 'Undergraduate Researcher',
     url: '',
     startDate: '2023-12-01',
