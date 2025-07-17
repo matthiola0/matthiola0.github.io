@@ -5,7 +5,7 @@ const data = [
     subtitle: 'A smart course recommendation system for NTHU CS students.',
     link: 'https://nthu-course-selecting-system.streamlit.app/',
     image: '/images/projects/course_recommendation.jpg',
-    date: '2025-01-31',
+    date: '2024-01-31',
     desc:
       'Built with Python and Streamlit, this smart course recommendation system helps computer science students plan their path to graduation. '
       + 'It provides highly personalized and flexible course plans by deeply integrating complex graduation requirements and prioritizing individual student preferences.',
