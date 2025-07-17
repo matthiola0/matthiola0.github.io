@@ -56,7 +56,7 @@ const work = [
       'Successfully managed team dynamics and task allocation in a high-pressure environment',
     ],
   },
-    {
+  {
     name: 'Course Project: Course Recommendation System for NTHU CS Students',
     position: 'Creator & Developer',
     url: 'https://nthu-course-selecting-system.streamlit.app/',
