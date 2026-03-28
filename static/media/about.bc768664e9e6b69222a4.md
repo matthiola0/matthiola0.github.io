@@ -4,7 +4,7 @@ I am currently a Master's student in the Department of Computer Science and Info
 
 During my undergraduate years, I explored a wide range of fields, including competitive programming, machine learning, deep learning, reinforcement learning, high-performance computing (HPC), blockchain, as well as web and game development.
 
-In terms of practical experience, I have engaged in various competitions, projects, and hackathons. I won second place in the 2022 APAC HPC-AI Competition, with a project focused on "Detecting Network Attacks by Comparing GA and KNN with Boosting and Decision Tree Algorithms." Additionally, I have participated in other events such as the Meichu Hackathon and the AWS Generative AI Application Hackathon.
+In terms of practical experience, I have engaged in various competitions, projects, and hackathons. I won second place in the 2022 APAC HPC-AI Competition and built the data pipeline for an undergraduate thesis on "Detecting Network Attacks by Comparing GA and KNN with Boosting and Decision Tree Algorithms." I have also participated in events such as the Agent for Truth: Disinformation Defense Hackathon and the Meichu Hackathon.
 
 # I Like
 
