@@ -29,31 +29,32 @@ const work = [
     ],
   },
   {
-    name: 'AWS Generative AI Application Hackathon',
-    position: 'Team Member (AI Agent Developer)',
-    url: 'https://www.digitimes.com.tw/seminar/generativeai_hackathon/',
-    startDate: '2025-04-26',
-    endDate: '2025-04-27',
-    summary: 'Participated in a high-intensity, 2-day hackathon focused on practical applications of Generative AI.'
-      + ' As a team member, I was specifically responsible for developing the core AI agent, learning to rapidly build and integrate emerging technologies into a functional prototype.',
+    name: 'Agent for Truth: Disinformation Defense Hackathon',
+    position: 'Full-Stack Developer & AWS Architect',
+    url: '',
+    startDate: '2026-03-01',
+    endDate: '2026-03-31',
+    summary: 'Reached the finals of the 2026 Agent for Truth hackathon hosted by BitoEX, working with real crypto transaction data to build an AI-powered risk-control system for detecting money laundering and fraud. '
+      + 'Adopted a Vibe Coding workflow — wrote a complete SDD specification first, then co-developed with an LLM to maximize delivery speed.',
     highlights: [
-      'Developed a functional AI agent as the core of the team\'s project',
-      'Applied modern Generative AI techniques to build a practical solution under a tight deadline',
-      'Collaborated effectively with teammates to brainstorm, develop, and prototype a complete application',
+      'Built the full-stack product around teammates\' LightGBM model: FastAPI backend with SHAP explainability and Amazon Bedrock Claude for Chinese risk summaries',
+      'Developed a React + TypeScript risk-control dashboard with a D3.js interactive transaction graph (drag, zoom, click-to-navigate)',
+      'Designed the AWS architecture: CloudFront + S3 for frontend, ALB + ECS Fargate for backend containers, with Docker for deployment consistency',
+      'Integrated WebSocket for real-time risk alert push notifications',
     ],
   },
   {
     name: 'Meichu Hackathon',
-    position: 'Team Lead',
+    position: 'Firmware Developer',
     url: 'https://2024.meichuhackathon.org/',
     startDate: '2024-10-19',
     endDate: '2024-10-20',
-    summary: 'Led a team in the 2024 Meichu Hackathon, a 2-day intensive programming competition. This experience honed my ability'
-      + ' to guide a team through rapid ideation, quick learning, and collaborative development to build a solution prototype from the ground up under extreme time pressure.',
+    summary: 'Participated in the 2024 Meichu Hackathon as a 3-person team, building an air-quality monitoring IoT prototype on an NXP i.MX RT1060 embedded board. '
+      + 'Responsible for the firmware side — touchscreen display logic and touch-coordinate interaction programming.',
     highlights: [
-      'Led and coordinated a team to develop a project prototype within a 36-hour timeframe',
-      'Facilitated brainstorming sessions and defined the technical direction for the project',
-      'Successfully managed team dynamics and task allocation in a high-pressure environment',
+      'Developed touchscreen UI and interaction logic using the vendor\'s drawing API, with touch-coordinate detection for region switching',
+      'Team pivoted to a CSV static-data strategy when embedded API integration (Wi-Fi driver + lwIP + HTTP client) proved infeasible within 2 days',
+      'Delivered a stable demo with working touchscreen display and region-switching interaction',
     ],
   },
   {
@@ -75,14 +76,12 @@ const work = [
     url: '',
     startDate: '2023-12-01',
     endDate: '2024-10-01',
-    summary: 'For my undergraduate thesis, I conducted a research project titled \'Detecting Network Attacks by Comparing GA and KNN with Boosting and Decision Tree Algorithms.\''
-      + ' My primary responsibilities included data processing and the implementation of machine learning models. The project focused on evaluating'
-      + ' and contrasting the performance of Genetic Algorithms (GA) and K-Nearest Neighbors (KNN) against classic models like Boosting and Decision Trees for identifying malicious network traffic.',
+    summary: 'For my undergraduate thesis, I built the end-to-end data pipeline for a research project titled \'Detecting Network Attacks by Comparing GA and KNN with Boosting and Decision Tree Algorithms.\' '
+      + 'Using the CICIoT2023 dataset (46 features, 8 attack classes), I handled feature standardization, SMOTE for class imbalance, and a unified train/val/test split framework to ensure fair model comparison.',
     highlights: [
-      'Responsible for the entire data preprocessing pipeline to prepare data for model training',
-      'Implemented and tuned Genetic Algorithm (GA) and K-Nearest Neighbors (KNN) models from scratch',
-      'Conducted a comparative analysis of model performance against Boosting and Decision Tree algorithms',
-      'Gained experience in making data-driven technical decisions based on model evaluation metrics',
+      'Built the end-to-end data pipeline: feature standardization, SMOTE for class imbalance, and rigorous train/val/test split to prevent data leakage',
+      'Established a unified evaluation framework (accuracy, precision, recall, F1, confusion matrix, timing) ensuring fair comparison across all methods',
+      'Team compared GA+KNN vs. Boosting (LightGBM achieved 93.44% accuracy); clean data and rigorous evaluation proved more impactful than model complexity',
     ],
   },
   {
@@ -91,28 +90,27 @@ const work = [
     url: 'https://fianl-project-23419.web.app/',
     startDate: '2023-02-01',
     endDate: '2023-06-30',
-    summary: 'As a key member of a three-person team for a course project, I co-developed "Soul Warrior," a feature-rich 2D action-platformer using Cocos Creator. '
-      + 'Our team collaborated on all aspects of the project, from initial design to final implementation, successfully creating a complete game with backend services, advanced mechanics, and a local multiplayer mode.',
+    summary: 'As a member of a four-person team for a Software Studio course project, I co-developed "Soul Warrior," a feature-rich 2D action-platformer using Cocos Creator. '
+      + 'I was primarily responsible for player character control, combat mechanics, and gameplay visual effects, and also participated in Firebase backend integration.',
     highlights: [
-      'Developed a 2D action game using the Cocos Creator engine, handling physics, animation, and particle effects.',
-      'Implemented core player mechanics including movement, combat (melee/ranged), and a double-jump system.',
-      'Integrated Firebase for a complete backend solution, featuring email authentication and cloud-based save/load functionality.',
-      'Designed and built a local Player vs. Player (PVP) multiplayer mode.',
-      'Programmed advanced gameplay features such as intelligent BOSS AI, an in-game shop for skill unlocks, and custom rendering effects.',
+      'Implemented player movement, combat mechanics (melee hit-detection synced with animations, ranged attacks with object-pooling), and a double-jump system.',
+      'Built damage-feedback effects including invincibility frames, character flashing animation, and screen shake for enhanced game feel.',
+      'Participated in Firebase integration for email authentication and cloud save/load with async data handling.',
     ],
   },
   {
-    name: 'Course Project: Bomberman',
-    position: 'Co-Developer & Game Programmer',
+    name: 'Personal Project: Bomberman',
+    position: 'Solo Developer',
     url: 'https://github.com/matthiola0/Bomberman',
     startDate: '2022-09-01',
     endDate: '2023-01-31',
-    summary: 'As part of a two-person team for a course final project, we co-developed a Bomberman-style arena game using C and the Allegro 5 library. '
-      + 'The game supports local multiplayer (1 vs 3 AI or 2 vs 4 AI) and features a custom-built AI with a dual-logic system for challenging gameplay.',
+    summary: 'My first complete project built from scratch — a Bomberman-style arena game using C++ and the Allegro 5 library. '
+      + 'The game supports local 2-player mode and features BFS-based NPC behavior with dynamic switching between pursuit, evasion, and patrol.',
     highlights: [
-      'Co-developed a Bomberman-clone from scratch in C with the Allegro 5 game programming library.',
-      'Implemented local multiplayer modes, supporting one or two human players against multiple computer-controlled opponents.',
-      'Contributed to the design and programming of a two-tiered AI system with distinct defensive and offensive logic.',
+      'Developed the entire game from scratch in C++ with Allegro 5, implementing an Object-Oriented architecture.',
+      'Designed a BFS-based NPC AI that dynamically switches between pursuit, evasion, and patrol based on distance to player and danger zones.',
+      'Handled complex collision detection (AABB) across multiple object pairs and managed game state transitions.',
+      'Manually optimized C++ memory management to ensure stability during intensive local multiplayer matches.',
     ],
   },
   {
@@ -121,13 +119,13 @@ const work = [
     url: 'https://nci.org.au/news-events/events/apac-hpc-ai-competition-2022-2023',
     startDate: '2022-06-01',
     endDate: '2022-11-30',
-    summary: 'Participated as a team member in the 5th APAC HPC-AI Competition. Our team achieved the runner-up award.'
-      + ' This long-term competition honed our skills in performance optimization and compatibility tuning on High-Performance Computing (HPC) infrastructure, with a focus on maximizing GPU utilization on fixed hardware.',
+    summary: 'Participated as a team member in the 5th APAC HPC-AI Competition on the Gadi supercomputer. Our team achieved the runner-up award. '
+      + 'I was responsible for optimizing Quantum Espresso (CeO2 energy calculation) performance across single-node and multi-node configurations using MPI parallelization.',
     highlights: [
-      'Collaborated with a team to win the Runner-up prize in a major international competition.',
-      'Solved complex challenges focused on maximizing GPU utilization and performance on a fixed hardware environment.',
-      'Gained hands-on experience with performance tuning and ensuring software compatibility on supercomputing infrastructure.',
-      'Enhanced skills in long-term project management and team collaboration.',
+      'Collaborated with a team to win the Runner-up prize in a major international HPC competition.',
+      'Analyzed program output to determine optimal parallelization strategy based on the workload\'s 20 sub-problem structure.',
+      'Systematically tuned MPI parameters (npool, ndiag, OMP_NUM_THREADS) across single-node and multi-node configs; best multi-node result: ~10s with 25 nodes / 1200 cores.',
+      'Identified the communication-overhead inflection point where adding more nodes degraded performance.',
     ],
   },
 ];

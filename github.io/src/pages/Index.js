@@ -11,11 +11,10 @@ const Index = () => (
       <header>
         <div className="title">
           <h2>
-            <Link to="/">About this site</Link>
+            <Link to="/">Welcome</Link>
           </h2>
           <p>
-            This site references code from{' '}
-            <a href="https://github.com/mldangelo/personal-site">here</a>.
+            M.S. CS @ NCKU · C/C++ · Python · Full-Stack · AWS
           </p>
         </div>
       </header>
@@ -23,8 +22,7 @@ const Index = () => (
         {' '}
         Welcome to my website. Please feel free to read more{' '}
         <Link to="/about">about me</Link>, or you can check out my{' '}
-        <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>,{' '}
-        view <Link to="/stats">site statistics</Link>, or{' '}
+        <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>, or{' '}
         <Link to="/contact">contact</Link> me.
       </p>
     </article>

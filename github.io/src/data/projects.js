@@ -1,6 +1,17 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Agent for Truth: AI Risk-Control Platform',
+    subtitle: 'Full-stack AI risk-control dashboard for crypto transaction monitoring.',
+    link: 'https://github.com/matthiola0/BitoGuard',
+    image: '/images/projects/bitoguard.jpg',
+    date: '2026-03-01',
+    desc:
+      'Built during the Agent for Truth hackathon finals. I designed the full-stack architecture: '
+      + 'FastAPI backend wrapping a LightGBM model with SHAP explainability and Amazon Bedrock Claude risk summaries, '
+      + 'React + D3.js interactive transaction graph dashboard, and AWS (CloudFront + S3 / ALB + ECS Fargate) deployment.',
+  },
+  {
     title: 'Course Recommendation System for NTHU CS Students',
     subtitle: 'A smart course recommendation system for NTHU CS students.',
     link: 'https://nthu-course-selecting-system.streamlit.app/',
@@ -17,10 +28,20 @@ const data = [
     image: '/images/projects/soulwarrior.jpg',
     date: '2023-06-01',
     desc:
-      'Developed with Cocos Creator, this game features an email-based account system, '
-      + 'Firebase for cloud saves, and a local PVP mode. '
-      + 'It includes advanced features like intelligent BOSS AI, a skill-unlocking shop system, '
-      + 'and custom rendering effects to enhance gameplay.',
+      'Developed with Cocos Creator as part of a four-person team, this game features an email-based account system '
+      + 'and Firebase for cloud saves. I was responsible for player movement, combat mechanics (melee/ranged with object-pooling), '
+      + 'and damage-feedback effects like invincibility frames and screen shake.',
+  },
+  {
+    title: 'Bomberman',
+    subtitle: 'My first complete project — a 2D arena game built from scratch.',
+    link: 'https://github.com/matthiola0/Bomberman',
+    image: '/images/projects/bomberman.jpg',
+    date: '2023-01-01',
+    desc:
+      'A Bomberman-style arena game developed solo using C++ and Allegro 5. Features local 2-player mode, '
+      + 'BFS-based NPC AI that dynamically switches between pursuit, evasion, and patrol, '
+      + 'AABB collision detection, and Object-Oriented architecture with manual memory management.',
   },
   // {
   //   title: 'Nearest Dollar',

@@ -25,7 +25,7 @@ const data = [
     icon: faInstagram,
   },
   {
-    link: 'www.linkedin.com/in/po-yu-pan-0463a6350',
+    link: 'https://www.linkedin.com/in/po-yu-pan-0463a6350',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
