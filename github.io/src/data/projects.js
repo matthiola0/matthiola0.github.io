@@ -3,7 +3,7 @@ const data = [
   {
     title: 'Agent for Truth: AI Risk-Control Platform',
     subtitle: 'Full-stack AI risk-control dashboard for crypto transaction monitoring.',
-    link: 'https://github.com/matthiola0/BitoGuard',
+    link: 'https://github.com/matthiola0/Bitopro_Hackathon_web',
     image: '/images/projects/bitoguard.jpg',
     date: '2026-03-01',
     desc:
