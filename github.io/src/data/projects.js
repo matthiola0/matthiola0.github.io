@@ -1,4 +1,4 @@
-// TODO: add screenshots at /public/images/projects/{btc-microstructure,alt-data-sentiment,gto_poker}.jpg
+// TODO: add screenshots at /public/images/projects/{btc-microstructure,alt-data-sentiment,gto_poker,cosmos_votesystem}.jpg
 const data = [
   {
     title: 'BTC Microstructure',
@@ -42,6 +42,18 @@ const data = [
     desc:
       'A solver-output-driven toolkit translating GTO ranges into actionable preflop and postflop '
       + 'heuristics for 8-max cash games.',
+  },
+  {
+    title: 'Cosmos VoteSystem',
+    subtitle: 'Blockchain voting PoC built with Cosmos SDK and Ignite CLI.',
+    link: 'https://github.com/matthiola0/cosmos_votesystem',
+    image: '/images/projects/cosmos_votesystem.jpg',
+    date: '2025-06-11',
+    desc:
+      'A blockchain voting PoC built with Cosmos SDK and Ignite CLI for a course final project. '
+      + 'Custom modules for voter identity verification, vote-token issuance via the bank module, '
+      + 'and a voting core that prevents double-voting. Configurable PoA consensus and multi-node '
+      + 'network setup, with performance testing across the full lifecycle from registration to tally.',
   },
   {
     title: 'Course Recommendation System for NTHU CS Students',
