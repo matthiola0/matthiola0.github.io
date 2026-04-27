@@ -18,6 +18,12 @@ const Main = (props) => (
     >
       {props.title && <title>{props.title}</title>}
       <meta name="description" content={props.description} />
+      <meta property="og:title" content={props.title ? `${props.title} | Po Yu Pan` : 'Po Yu Pan'} />
+      <meta property="og:description" content={props.description} />
+      <meta property="og:image" content="https://matthiola.dev/images/og.png" />
+      <meta property="og:url" content="https://matthiola.dev/" />
+      <meta property="og:type" content="website" />
+      <meta name="twitter:card" content="summary_large_image" />
     </Helmet>
     <div id="wrapper">
       <Navigation />

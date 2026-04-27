@@ -35,7 +35,7 @@ const data = [
     icon: faTwitter,
   },
   {
-    link: 'mailto:abc35100762@gmail.com',
+    link: 'mailto:hi@matthiola.dev',
     label: 'Email',
     icon: faEnvelope,
   },

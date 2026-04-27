@@ -2,9 +2,12 @@
 
 I am currently a Master's student in the Department of Computer Science and Information Engineering at National Cheng Kung University. I completed my undergraduate studies in the College of Science at National Tsing Hua University.
 
-During my undergraduate years, I explored a wide range of fields, including competitive programming, machine learning, deep learning, reinforcement learning, high-performance computing (HPC), blockchain, as well as web and game development.
+# Highlights
 
-In terms of practical experience, I have engaged in various competitions, projects, and hackathons. I won second place in the 2022 APAC HPC-AI Competition and built the data pipeline for an undergraduate thesis on "Detecting Network Attacks by Comparing GA and KNN with Boosting and Decision Tree Algorithms." I have also participated in events such as the Agent for Truth: Disinformation Defense Hackathon and the Meichu Hackathon.
+- **Runner-up, 2022 APAC HPC-AI Competition** — optimized Quantum Espresso on the Gadi supercomputer (~10s on 25 nodes / 1200 cores).
+- **Undergraduate thesis** — "Detecting Network Attacks by Comparing GA and KNN with Boosting and Decision Tree Algorithms"; built the end-to-end data pipeline (SMOTE, train/val/test framework).
+- **Quant research** — factor research, ML return forecasting, microstructure, and alt-data sentiment across US / TW / crypto markets ([see GitHub](https://github.com/matthiola0)).
+- **Hackathons** — Agent for Truth (BitoGuard, 2026), Meichu Hackathon (2024).
 
 # I Like
 
@@ -30,4 +33,3 @@ In terms of practical experience, I have engaged in various competitions, projec
 - Staying curious.
 - Continually improving.
 - Inspiring and feeling inspired.
-- You send me an offer or invite me to an interview after viewing this site.

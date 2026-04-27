@@ -9,12 +9,12 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="Po Yu Pan" />
       </Link>
       <header>
         <h2>Po Yu Pan</h2>
         <p>
-          <a href="mailto:abc35100762@gmail.com">abc35100762@gmail.com</a>
+          <a href="mailto:hi@matthiola.dev">hi@matthiola.dev</a>
         </p>
       </header>
     </section>
@@ -46,7 +46,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Po Yu Pan <Link to="/">matthiola0.github.io</Link>.
+        &copy; Po Yu Pan <Link to="/">matthiola.dev</Link>.
       </p>
     </section>
   </section>

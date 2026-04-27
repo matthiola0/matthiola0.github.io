@@ -1,5 +1,27 @@
-// TODO Add a couple lines about each project
+// TODO: add screenshots at /public/images/projects/{btc-microstructure,alt-data-sentiment,gto_poker}.jpg
 const data = [
+  {
+    title: 'BTC Microstructure',
+    subtitle: 'Order-book imbalance study on Bybit linear futures.',
+    link: 'https://github.com/matthiola0/btc-microstructure',
+    image: '/images/projects/btc-microstructure.jpg',
+    date: '2026-04-25',
+    desc:
+      'Studied BTC order-book imbalance with a C++20 ingest pipeline feeding Python notebooks for analysis. '
+      + 'Cost-aware backtests including spread, slippage, and fees — a deliberate reality check '
+      + 'on naive signal claims.',
+  },
+  {
+    title: 'Alt-Data Sentiment',
+    subtitle: 'Reddit retail-forum sentiment as an alt-data factor on the S&P 500.',
+    link: 'https://github.com/matthiola0/alt-data-sentiment',
+    image: '/images/projects/alt-data-sentiment.jpg',
+    date: '2026-04-25',
+    desc:
+      'FinBERT scoring across subreddits, cross-subreddit IC analysis, incremental regression '
+      + 'against classic factors, and a 2021 GME/AMC event study to isolate marginal alpha '
+      + 'beyond price-based signals.',
+  },
   {
     title: 'Agent for Truth: AI Risk-Control Platform',
     subtitle: 'Full-stack AI risk-control dashboard for crypto transaction monitoring.',
@@ -10,6 +32,16 @@ const data = [
       'Built during the Agent for Truth hackathon finals. I designed the full-stack architecture: '
       + 'FastAPI backend wrapping a LightGBM model with SHAP explainability and Amazon Bedrock Claude risk summaries, '
       + 'React + D3.js interactive transaction graph dashboard, and AWS (CloudFront + S3 / ALB + ECS Fargate) deployment.',
+  },
+  {
+    title: 'GTO Poker',
+    subtitle: 'GTO-inspired strategy toolkit for 8-max poker.',
+    link: 'https://github.com/matthiola0/GTO_Poker',
+    image: '/images/projects/gto_poker.jpg',
+    date: '2025-10-11',
+    desc:
+      'A solver-output-driven toolkit translating GTO ranges into actionable preflop and postflop '
+      + 'heuristics for 8-max cash games.',
   },
   {
     title: 'Course Recommendation System for NTHU CS Students',
@@ -43,49 +75,6 @@ const data = [
       + 'BFS-based NPC AI that dynamically switches between pursuit, evasion, and patrol, '
       + 'AABB collision detection, and Object-Oriented architecture with manual memory management.',
   },
-  // {
-  //   title: 'Nearest Dollar',
-  //   subtitle: '2015 BVP Hackathon',
-  //   image: '/images/projects/nearestdollar.jpg',
-  //   date: '2015-11-20',
-  //   desc:
-  //     'Built for a social impact hackathon. '
-  //     + 'NearestDollar connected to your bank accounts, credit cards, '
-  //     + 'or debit cards and rounded up your purchases to donate the balance to '
-  //     + 'the charity of your choice.',
-  // },
-  // {
-  //   title: 'Harvest',
-  //   subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-  //   link: 'https://devpost.com/software/harvest',
-  //   image: '/images/projects/harvest.jpg',
-  //   date: '2015-09-20',
-  //   desc:
-  //     'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-  //     + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-  //     + 'and nutrient deficiencies at an affordable price for the developing world.',
-  // },
-  // {
-  //   title: 'Space Potato',
-  //   subtitle: 'A kickstarter funded potato powered weather balloon.',
-  //   link: 'http://www.spacepotato.org',
-  //   image: '/images/projects/spacepotato.jpg',
-  //   date: '2015-06-28',
-  //   desc:
-  //     'Launched a potato battery powered weather balloon with two cameras '
-  //     + 'and gps transponder. Resulting photos were published in a coffee table book. '
-  //     + 'You can email me for a copy.',
-  // },
-  // {
-  //   title: 'Cat Detector',
-  //   subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-  //   image: '/images/projects/catdetector.jpg',
-  //   date: '2015-05-15',
-  //   desc:
-  //     'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-  //     + 'Over 60,000 cats were classified before server bills made the project too expensive '
-  //     + 'to continue hosting.',
-  // },
 ];
 
 export default data;
