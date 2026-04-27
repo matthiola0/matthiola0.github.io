@@ -3,21 +3,19 @@
  */
 
 import '@testing-library/jest-dom';
-import '@testing-library/react';
+import { screen } from '@testing-library/react';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { act } from 'react-dom/test-utils';
 import App from '../App';
 
 describe('renders the app', () => {
-  // mocks the fetch API used on the stats page and the about page.
   const jsonMock = jest.fn(() => Promise.resolve({}));
   const textMock = jest.fn(() => Promise.resolve(''));
   global.fetch = jest.fn(() => Promise.resolve({
     json: jsonMock,
     text: textMock,
   }));
-  // mocks the scrollTo API used when navigating to a new page.
   window.scrollTo = jest.fn();
 
   let container;
@@ -41,14 +39,12 @@ describe('renders the app', () => {
   });
 
   it('should render the title', async () => {
-    expect(document.title).toBe("Po Yu Pan");
+    expect(document.title).toBe('Po Yu Pan');
   });
 
   it('can navigate to /about', async () => {
     expect.assertions(7);
-    const aboutLink = document.querySelector(
-      '#header > nav > ul > li:nth-child(1) > a',
-    );
+    const aboutLink = screen.getByRole('link', { name: 'About' });
     expect(aboutLink).toBeInTheDocument();
     await act(async () => {
       await aboutLink.click();
@@ -63,12 +59,10 @@ describe('renders the app', () => {
 
   it('can navigate to /resume', async () => {
     expect.assertions(3);
-    const contactLink = document.querySelector(
-      '#header > nav > ul > li:nth-child(2) > a',
-    );
-    expect(contactLink).toBeInTheDocument();
+    const resumeLink = screen.getByRole('link', { name: 'Resume' });
+    expect(resumeLink).toBeInTheDocument();
     await act(async () => {
-      await contactLink.click();
+      await resumeLink.click();
     });
     expect(document.title).toContain('Resume |');
     expect(window.location.pathname).toBe('/resume');
@@ -76,36 +70,18 @@ describe('renders the app', () => {
 
   it('can navigate to /projects', async () => {
     expect.assertions(3);
-    const contactLink = document.querySelector(
-      '#header > nav > ul > li:nth-child(3) > a',
-    );
-    expect(contactLink).toBeInTheDocument();
+    const projectsLink = screen.getByRole('link', { name: 'Projects' });
+    expect(projectsLink).toBeInTheDocument();
     await act(async () => {
-      await contactLink.click();
+      await projectsLink.click();
     });
     expect(document.title).toContain('Projects |');
     expect(window.location.pathname).toBe('/projects');
   });
-  // it('can navigate to /stats', async () => {
-  //   expect.assertions(5);
-  //   const contactLink = document.querySelector(
-  //     '#header > nav > ul > li:nth-child(4) > a',
-  //   );
-  //   expect(contactLink).toBeInTheDocument();
-  //   await act(async () => {
-  //     await contactLink.click();
-  //   });
-  //   expect(document.title).toContain('Stats |');
-  //   expect(window.location.pathname).toBe('/stats');
-  //   expect(global.fetch).toHaveBeenCalledTimes(1);
-  //   expect(jsonMock).toHaveBeenCalledTimes(1);
-  // });
 
   it('can navigate to /contact', async () => {
     expect.assertions(3);
-    const contactLink = document.querySelector(
-      '#header > nav > ul > li:nth-child(4) > a',
-    );
+    const contactLink = screen.getByRole('link', { name: 'Contact' });
     expect(contactLink).toBeInTheDocument();
     await act(async () => {
       await contactLink.click();
