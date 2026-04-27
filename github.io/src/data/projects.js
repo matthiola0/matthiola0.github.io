@@ -1,4 +1,4 @@
-// TODO: add screenshots at /public/images/projects/{btc-microstructure,alt-data-sentiment,gto_poker,cosmos_votesystem}.jpg
+// TODO: add screenshots under /public/images/projects/ for entries that don't have one yet.
 const data = [
   {
     title: 'BTC Microstructure',
