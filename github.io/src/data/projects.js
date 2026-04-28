@@ -1,4 +1,3 @@
-// TODO: add screenshots under /public/images/projects/ for entries that don't have one yet.
 const data = [
   {
     title: 'BTC Microstructure',
