@@ -19,16 +19,19 @@ describe('renders the app', () => {
   window.scrollTo = jest.fn();
 
   let container;
+  let root;
 
   beforeEach(async () => {
     container = document.createElement('div');
     document.body.appendChild(container);
+    root = ReactDOM.createRoot(container);
     await act(async () => {
-      await ReactDOM.createRoot(container).render(<App />);
+      root.render(<App />);
     });
   });
 
-  afterEach(() => {
+  afterEach(async () => {
+    await act(async () => root.unmount());
     document.body.removeChild(container);
     container = null;
     jest.clearAllMocks();
@@ -39,7 +42,7 @@ describe('renders the app', () => {
   });
 
   it('should render the title', async () => {
-    expect(document.title).toBe('Po Yu Pan');
+    expect(document.title).toBe('Po-Yu Pan');
   });
 
   it('can navigate to /about', async () => {

@@ -5,6 +5,7 @@ const CategoryButton = ({ handleClick, active, label }) => (
   <button
     className={`skillbutton ${active[label] ? 'skillbutton-active' : ''}`}
     type="button"
+    aria-pressed={active[label]}
     onClick={() => handleClick(label)}
   >
     {label}

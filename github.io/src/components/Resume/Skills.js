@@ -6,7 +6,7 @@ import SkillBar from './Skills/SkillBar';
 
 const Skills = ({ skills, categories }) => {
   const initialButtons = Object.fromEntries(
-    [['All', false]].concat(categories.map(({ name }) => [name, false])),
+    [['All', true]].concat(categories.map(({ name }) => [name, false])),
   );
 
   const [buttons, setButtons] = useState(initialButtons);
@@ -21,7 +21,7 @@ const Skills = ({ skills, categories }) => {
       {},
     );
     // Turn on 'All' button if other buttons are off
-    newButtons.All = !Object.keys(buttons).some((key) => newButtons[key]);
+    newButtons.All = !Object.keys(newButtons).some((key) => key !== 'All' && newButtons[key]);
     setButtons(newButtons);
   };
 
