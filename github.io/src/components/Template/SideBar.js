@@ -9,10 +9,10 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="Po Yu Pan" />
+        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="Po-Yu Pan" />
       </Link>
       <header>
-        <h2>Po Yu Pan</h2>
+        <h2>Po-Yu Pan</h2>
         <p>
           <a href="mailto:hi@matthiola.dev">hi@matthiola.dev</a>
         </p>
@@ -22,7 +22,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Po Yu, and you can call me Boy.<br />
+        Hi, I&apos;m Po-Yu, and you can call me Boy.<br />
         I got my bachelor&apos;s from{' '}
         <a href="https://scidm.site.nthu.edu.tw/app/home.php">NTHU IPS</a>{' '}
         and am now pursuing a master&apos;s in{' '}
@@ -46,7 +46,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Po Yu Pan <Link to="/">matthiola.dev</Link>.
+        &copy; Po-Yu Pan <Link to="/">matthiola.dev</Link>.
       </p>
     </section>
   </section>

@@ -1,4 +1,48 @@
 const courses = [
+  // --- NCKU (graduate) ---
+  {
+    title: 'High-Performance Router Architecture and Design',
+    number: 'CSIE7133',
+    link: '',
+    university: 'NCKU',
+  },
+  {
+    title: 'Special Topic on Design of Network Intrusion Detection System',
+    number: 'CSIE7132',
+    link: '',
+    university: 'NCKU',
+  },
+  {
+    title: 'Generative AI Application Systems and Engineering',
+    number: 'CSIE7667',
+    link: '',
+    university: 'NCKU',
+  },
+  {
+    title: 'Big Data Analysis and Cloud Computing',
+    number: 'AISM7003',
+    link: '',
+    university: 'NCKU',
+  },
+  {
+    title: 'Computer Vision and Deep Learning',
+    number: 'CSIE7606',
+    link: '',
+    university: 'NCKU',
+  },
+  {
+    title: 'Image Processing',
+    number: 'CSIE7012',
+    link: '',
+    university: 'NCKU',
+  },
+  {
+    title: 'Graph Theory',
+    number: 'CSIE7010',
+    link: '',
+    university: 'NCKU',
+  },
+
   // --- Core CS Foundations ---
   {
     title: 'Operating Systems',

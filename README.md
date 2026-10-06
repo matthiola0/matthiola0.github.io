@@ -7,7 +7,6 @@ Built with React (Create React App) and deployed to GitHub Pages from the `gh-pa
 ## Layout
 
 - `github.io/` — React app source. All build/dev commands run from here.
-- `CV_folder/Resume.pdf` — published resume, linked from the site's Resume page.
 
 ## Develop
 

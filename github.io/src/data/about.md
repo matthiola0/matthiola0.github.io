@@ -1,17 +1,19 @@
 # Intro
 
-I am currently a Master's student in the Department of Computer Science and Information Engineering at National Cheng Kung University. I completed my undergraduate studies in the College of Science at National Tsing Hua University.
+I am a master's student in the Department of Computer Science and Information Engineering at National Cheng Kung University, where I work in CIAL (Computer & Internet Architecture Lab) with Prof. Yeim-Kuan Chang. I completed my bachelor's degree in the College of Science at National Tsing Hua University.
 
 # Highlights
 
-- **Runner-up, 2022 APAC HPC-AI Competition** — optimized Quantum Espresso on the Gadi supercomputer (~10s on 25 nodes / 1200 cores).
-- **Undergraduate thesis** — "Detecting Network Attacks by Comparing GA and KNN with Boosting and Decision Tree Algorithms"; built the end-to-end data pipeline (SMOTE, train/val/test framework).
-- **Quant research** — factor research, ML return forecasting, microstructure, and alt-data sentiment across US / TW / crypto markets ([see GitHub](https://github.com/matthiola0)).
-- **Hackathons** — Agent for Truth (BitoGuard, 2026), Meichu Hackathon (2024).
+- Third place in the Google track at the 2026 Hsinchu x Meichu Hackathon. Our five-person team built First Aid Copilot, a first-aid coordination prototype with Google ADK and Gemini, and I worked on the rule engine, the AED open data and reassignment logic, and the backend data layer.
+- Finalist at the AIWave generative AI hackathon with MAXi, where I built the multi-agent war room that runs six agents concurrently on Amazon Bedrock.
+- Research at CIAL on AMPS, a packet classification framework that uses reinforcement learning. I am third author on the AMPS paper submitted to INNOV.
+- Open source: a merged pull request in [sysprog21/codetrial](https://github.com/sysprog21/codetrial/pull/86) that adds ordered Gemini API key failover in Rust.
+- Second place with the NTHU team at the 2022 APAC HPC-AI Competition, where I co-wrote the report on tuning Quantum ESPRESSO on the Gadi supercomputer.
 
 # I Like
 
 - Coding
+- Chess
 - Anime
 - Comic
 - Autumn
@@ -23,9 +25,9 @@ I am currently a Master's student in the Department of Computer Science and Info
 
 # Fun Facts
 
+- My username, matthiola, is the scientific name of the stock flower. I borrowed the idea from Lycoris Recoil, where the agents are named Lycoris after the red spider lily.
 - I aspire to live a highly efficient life, yet I'm a lazy person.
 - I can go for more than a week without leaving the house.
-- While I frequently use LeetCode and GitHub, I use ChatGPT and Gemini more often.
 
 # I dream of
 

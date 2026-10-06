@@ -31,6 +31,7 @@ Experience.propTypes = {
       url: PropTypes.string,
       startDate: PropTypes.string,
       endDate: PropTypes.string,
+      dateLabel: PropTypes.string,
       highlights: PropTypes.arrayOf(PropTypes.string),
       summary: PropTypes.string,
     }),

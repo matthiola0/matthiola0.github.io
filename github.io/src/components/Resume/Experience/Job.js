@@ -3,21 +3,23 @@ import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
 import Markdown from 'markdown-to-jsx';
 
+const formatRange = (startDate, endDate, dateLabel) => {
+  if (dateLabel) return dateLabel;
+  const start = dayjs(startDate).format('MMMM YYYY');
+  return `${start} - ${endDate ? dayjs(endDate).format('MMMM YYYY') : 'PRESENT'}`;
+};
+
 const Job = ({
   data: {
-    name, position, url, startDate, endDate, summary, highlights,
+    name, position, url, startDate, endDate, dateLabel, summary, highlights,
   },
 }) => (
   <article className="jobs-container">
     <header>
       <h4>
-        <a href={url}>{name}</a> - {position}
+        {url ? <a href={url}>{name}</a> : name} - {position}
       </h4>
-      <p className="daterange">
-        {' '}
-        {dayjs(startDate).format('MMMM YYYY')} -{' '}
-        {endDate ? dayjs(endDate).format('MMMM YYYY') : 'PRESENT'}
-      </p>
+      <p className="daterange"> {formatRange(startDate, endDate, dateLabel)}</p>
     </header>
     {summary ? (
       <Markdown
@@ -48,9 +50,10 @@ Job.propTypes = {
   data: PropTypes.shape({
     name: PropTypes.string.isRequired,
     position: PropTypes.string.isRequired,
-    url: PropTypes.string.isRequired,
-    startDate: PropTypes.string.isRequired,
+    url: PropTypes.string,
+    startDate: PropTypes.string,
     endDate: PropTypes.string,
+    dateLabel: PropTypes.string,
     summary: PropTypes.string,
     highlights: PropTypes.arrayOf(PropTypes.string.isRequired),
   }).isRequired,

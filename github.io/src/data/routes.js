@@ -1,7 +1,7 @@
 const routes = [
   {
     index: true,
-    label: 'Po Yu Pan',
+    label: 'Po-Yu Pan',
     path: '/',
   },
   {
