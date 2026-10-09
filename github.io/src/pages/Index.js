@@ -32,7 +32,7 @@ const Index = () => (
           <h1 id="welcome-title">Hello there.<br /><em>I&apos;m Po-Yu.</em></h1>
           <p className="hero-intro">You can call me Boy. Welcome to my little space.</p>
           <p className="hero-details">M.S. CS @ NCKU<br />C++ · Python · Networking · AI Agents</p>
-          <p className="hero-details">Building <a href="/daybook/">Daybook</a>, an AI-assisted planner for coding interview practice and weekly review.</p>
+          <p className="hero-details">Building <a href="/daybook/">Daybook</a>, an AI-assisted planner for learning, projects, and daily habits.</p>
           <a className="text-link" href="#contents">Take a look around <span aria-hidden="true">↘</span></a>
         </div>
 

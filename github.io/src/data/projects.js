@@ -52,12 +52,12 @@ const data = [
   {
     title: 'Daybook',
     category: 'Personal Projects',
-    subtitle: 'Coding interview practice with attempt history and AI-assisted weekly planning.',
+    subtitle: 'AI-assisted planning for learning, projects, and daily habits.',
     link: 'https://matthiola.dev/daybook/',
     image: '/daybook/images/ai-planner-demo.png',
     date: '2026-08-30',
     desc:
-      'Connects LeetCode attempt history with daily planning. Users can opt in to share recent practice outcomes and notes with the AI planner for weekly review suggestions. '
+      'Connects goal cycles, daily tasks, habits, and reflection. The coding-practice workflow can also use opt-in attempt outcomes and notes to suggest linked reviews. '
       + 'The AI planner returns a structured proposal that the server validates and the user confirms before anything is written. '
       + 'Built with Next.js, Drizzle ORM, Cloudflare Workers and D1, and the Groq API.',
   },
