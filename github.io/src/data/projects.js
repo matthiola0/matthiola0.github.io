@@ -53,7 +53,8 @@ const data = [
     title: 'Daybook',
     category: 'Personal Projects',
     subtitle: 'An AI-assisted calendar for turning long-term goals into daily tasks.',
-    link: 'https://calendar.matthiola.dev/',
+    link: 'https://matthiola.dev/daybook/',
+    image: '/daybook/images/ai-planner-demo.png',
     date: '2026-08-30',
     desc:
       'Breaks goals into phases and daily tasks, with recurring schedules, habit settings, and reflection notes. '

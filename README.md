@@ -10,6 +10,8 @@ Built with React (Create React App) and deployed to GitHub Pages from the `gh-pa
 
 ## Develop
 
+The public Daybook tour lives in `github.io/public/daybook/` and is served as static HTML at `/daybook/`. Use normal anchors to reach it from React pages. Its screenshots use demo data from the public `matthiola0/my-calendar` repository. Development dates describe project history, not company incorporation. Keep current capabilities separate from proposed integrations.
+
 ```bash
 cd github.io
 npm install
